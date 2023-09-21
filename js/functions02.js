@@ -152,9 +152,14 @@ function resaltarParrafo(idParrafo) {
 
 document.addEventListener("DOMContentLoaded", function() {
     const botonDeCambio = document.getElementById("envio");
-        if (botonDeCambio) {
-            botonDeCambio.addEventListener("click", persona2()); 
-        } else {
-            console.error("El botón no se encontró en el DOM.");
-            }
+    botonDeCambio.addEventListener("click", persona2()); 
 });
+
+// document.addEventListener("DOMContentLoaded", function() {
+//    const botonDeCambio = document.getElementById("envio");
+//        if (botonDeCambio) {
+//            botonDeCambio.addEventListener("click", persona2()); 
+//        } else {
+//            console.error("El botón no se encontró en el DOM.");
+//            }
+// });
