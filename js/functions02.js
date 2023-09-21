@@ -48,7 +48,7 @@ function persona2() {
         let foto = document.getElementById("foto");
         foto.src = fotoPers;
 
-        
+
  // Utilizando el dato proporcionado por el archivo JSON parseado como (persona.results[0].registered.age) 
  // se definen algunas características de los titulares, tales como datos de "Formación", "Aptitudes" e
  // "Historial Laboral".  Existen básicamente tres combinaciones, que van siendo asignadas según el resultado
