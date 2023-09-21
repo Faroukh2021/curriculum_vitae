@@ -153,6 +153,7 @@ function resaltarParrafo(idParrafo) {
 document.addEventListener("DOMContentLoaded", function() {
     const botonDeCambio = document.getElementById("envio");
     botonDeCambio.addEventListener("click", persona2()); 
+    location.reload();
 });
 
 // document.addEventListener("DOMContentLoaded", function() {
