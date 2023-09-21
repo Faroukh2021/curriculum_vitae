@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="icon" type="image/x-icon" href="curriculum.ico">
+    <link rel="stylesheet" type="text/css" href="C:\Users\Castro\Documents\Claudio\Curriculum_Vitae\css\estilo.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta property="og:title" content="Curriculum Vitae">
+    <meta property="og:description" content="Se trata del trabajo práctico realizado para un proyecto educativo">
+    <meta property="og:image" content="c_v_pantalla.jpg"> 
+    <!-- <meta property="og:url" content="https://example.com">  -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Curriculum Vitae">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Curriculm Vitae</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Información Personal
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a id="informacionContacto" class="dropdown-item" href="#infoContacto">Información de Contacto</a></li>
+                      <li><a id="OtraInformacionPersonal" class="dropdown-item" href="#otraInfoPersonal">Otra Información Personal</a></li>
+                    </ul>
+                </li>
+              
+                <li class="nav-item">
+                    <a id="fContacto" class="nav-link" href="#formContacto">Formulario de Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a id="form" class="nav-link" href="#formacion1">Formación</a>
+                </li>
+                <li class="nav-item">
+                    <a id="apti" class="nav-link" href="#aptitud">Aptitudes</a>
+                </li>
+                <li class="nav-item">
+                    <a id="hLaboral" class="nav-link" href="#historialLaboral">Historial Laboral</a>
+                </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    <script src="js/functions02.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <!-- Contenido de la primera columna -->
+                <img id="foto" src="FotoPersona01.jpg" alt="Foto del titular del currículum" height="137px" width="137px" id="imagen-izquierda-superior">
+    
+            </div>
+            <div id="personaTitular" class="col-md-8">
+                <!-- Contenido de la segunda columna -->                
+                <h1 id="persona">At. Persona Titular</h1>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <!-- Contenido de la primera columna -->                
+                <h3>Información Personal</h3>
+
+                <div id="infoContacto">
+                    <h4>Información de Contacto</h4>
+                    <p id="domicilio">Domicilio: </p>
+                    <p id="telefono">Teléfono: </p>
+                    <p id="email">e-mail: </p>
+                </div>
+
+                <div id="otraInfoPersonal">
+                    <h4>Otra Información Personal</h4>
+                    <p id="genero">Género: </p>
+                    <p id="edad">Edad: </p>
+                    <p id="fechaNac">Fecha Nacimiento: </p>
+                </div>
+
+                <div id="formContacto">
+                    <h4>Formulario de contacto</h4>                    
+                    <form action="" method="post">  <p>Ingrese sus datos y lo contactaré a la brevedad</p>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ingrese nombre" autocomplete="off">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="text" id="telefono" name="telefono" placeholder="ingrese telefono" autocomplete="off">
+                        <label for="correo">Correo:</label>
+                        <input type="email" id="correo" name="email" placeholder="ingrese email" autocomplete="off">
+                        <label for="comentario">Comentario:</label>
+                        <input type="text" id="comentario" name="comentario" placeholder="ingrese comentario" autocomplete="off">
+                        <label for="fecha">Fecha:</label>
+                        <input type="datetime-local" id="fecha" name="fecha" placeholder="ingrese la fecha">
+                        <input type="submit" id="envio" value="Enviar/Ver otro curriculum">
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <!-- Contenido de la segunda columna -->
+                <div id="formacion1">
+                    <h3>Formación</h3>
+                    <p id="formacion">Universidad de Westminister, Madrid, 2006</p>
+                    <p id="formacion2">Grado Universitario con matrícula de honor: Administración y Gestión de Empresas</p>
+                </div>
+
+                <div id="aptitud">
+                    <h3>Aptitudes</h3>
+                    <p id="aptitudes">Liderazgo ejecutivo</p>
+                    <p id="aptitudes2"></p>Conocimientos de gestión de resultados multimillonarios en la región del Sudeste Asiático</p>
+                    <p id="aptitudes3"></p>Relaciones con clientes y proveedores</p>
+                    <p id="aptitudes4"></p>Desarrollo de líneas de productos y campañas de márketing</p>
+                    <p id="aptitudes5"></p>Desarrollo de políticas de formación y RR.HH.</p>
+                    <p id="aptitudes6"></p>Optimización de procesos</p>
+                </div>
+                
+                <div id="historialLaboral">
+                    <h3>Historial Laboral</h3>
+                    <p id="historial">Pizza Hut España * Vicepresidente ejecutivo.</p>
+                    <p id="historial2">Fuenlabrada, Madrid 09/2015 hasta el presente.</p>
+                    <p id="historial3">Dirección de las operaciones relacionadas con la marca (márketing, TI, RR.HH., formación, desarrollo, construcción, propiedad y resultados) de más de 200 establecimientos.</p>
+                    <p>Evaluación de la rentabilidad de los procesos de la empresa a fin de determinar la estructura óptima para maximizar los beneficios.</p>
+                    <p>Dirección de la coordinación de estrategias entre departamentos para consolidar ventas.</p>
+                    <p>Implementación de mejoras en los procesos para incrementar la satisfacción y fidelidad de los clientes.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+</body>
+</html>
+

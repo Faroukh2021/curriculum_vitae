@@ -1,0 +1,23 @@
+* { font-family: 'Cabin', sans-serif; }
+
+#envio, #personaTitular {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#foto { 
+    justify-content: center;
+    display: block; /* Hace que la imagen sea un bloque, lo que permite centrarla horizontalmente */
+    margin: 0 auto; /* Auto-margen horizontal para centrar la imagen horizontalmente */
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+}
+
+#formContacto label {
+    display: block;
+    margin-top: 1rem;
+}
+
+#historialLaboral {
+    margin-bottom: 40px;
+}
