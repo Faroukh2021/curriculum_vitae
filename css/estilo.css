@@ -13,10 +13,10 @@
     max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
 }
 
-/** #formContacto label {
+#formContacto label {
     display: block;
     margin-top: 1rem;
-} */
+} 
 
 #historialLaboral {
     margin-bottom: 40px;
