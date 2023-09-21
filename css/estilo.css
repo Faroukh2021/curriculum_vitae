@@ -6,6 +6,12 @@
     text-align: center;
 }
 
+#envio { 
+    color: white;
+    background-color: mediumblue;
+    font-weight: bold;
+}
+
 #foto { 
     justify-content: center;
     display: block; /* Hace que la imagen sea un bloque, lo que permite centrarla horizontalmente */
