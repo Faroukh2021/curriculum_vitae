@@ -150,17 +150,17 @@ function resaltarParrafo(idParrafo) {
     parrafo.style.backgroundColor = "mediumslateblue";
 }
 
+// document.addEventListener("DOMContentLoaded", function() {
+//     const botonDeCambio = document.getElementById("envio");
+//     botonDeCambio.addEventListener("click", persona2()); 
+//     location.reload();
+// });
+
 document.addEventListener("DOMContentLoaded", function() {
     const botonDeCambio = document.getElementById("envio");
-    botonDeCambio.addEventListener("click", persona2()); 
-    location.reload();
+        if (botonDeCambio) {
+            botonDeCambio.addEventListener("click", persona2()); 
+        } else {
+            console.error("El botón no se encontró en el DOM.");
+            }
 });
-
-// document.addEventListener("DOMContentLoaded", function() {
-//    const botonDeCambio = document.getElementById("envio");
-//        if (botonDeCambio) {
-//            botonDeCambio.addEventListener("click", persona2()); 
-//        } else {
-//            console.error("El botón no se encontró en el DOM.");
-//            }
-// });
