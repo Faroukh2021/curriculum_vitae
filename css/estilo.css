@@ -27,3 +27,10 @@
 #historialLaboral {
     margin-bottom: 40px;
 }
+
+#verOtraPersona { 
+    color: white;
+    background-color: mediumblue;
+    font-weight: bold;
+    justify-content: center;
+}
