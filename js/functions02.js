@@ -114,16 +114,16 @@ function fecha(fechaCompleta) {
 // Mediante la barra de navegación, ante el evento click en los elementos, se dispara function que modifica
 // atributos de documentos HTML mediante .JS
 
-const enlace1 = document.getElementById("informacionContacto");
-const enlace2 = document.getElementById("OtraInformacionPersonal");
-const enlace3 = document.getElementById("fContacto");
-const enlace4 = document.getElementById("form");
-const enlace5 = document.getElementById("hLaboral");
-const enlace6 = document.getElementById("apti");
+ const enlace1 = document.getElementById("informacionContacto");
+ const enlace2 = document.getElementById("OtraInformacionPersonal");
+ const enlace3 = document.getElementById("fContacto");
+ const enlace4 = document.getElementById("form");
+ const enlace5 = document.getElementById("hLaboral");
+ const enlace6 = document.getElementById("apti");
 
-enlace1.addEventListener("click", function() {
-    resaltarParrafo("infoContacto");
-});
+ enlace1.addEventListener("click", function() {
+     resaltarParrafo("infoContacto");
+ });
 
 enlace2.addEventListener("click", function() {
     resaltarParrafo("otraInfoPersonal");
@@ -156,5 +156,31 @@ document.addEventListener("DOMContentLoaded", function() {
             botonDeCambio.addEventListener("click", persona2()); 
         } else {
             console.error("El botón no se encontró en el DOM.");
-            }
-});
+            }               
+    }); 
+
+function restablecerEstilos() {
+        // Restablecer los estilos de todos los párrafos a su estado original
+    const divisions = document.getElementsByTagName("div");
+        
+    for (const parrafo of divisions) {
+        parrafo.style.backgroundColor = "transparent";
+        }
+    }
+
+document.body.addEventListener("mousemove", function() {
+        // Restablecer los estilos al hacer clic en cualquier lugar de la página
+    restablecerEstilos();
+    });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const botonDeCambio2 = document.getElementById("verOtraPersona");
+        if (botonDeCambio2) {
+            botonDeCambio2.addEventListener("click", function() {
+                console.log("hiciste click en el botón Próximo!");
+                persona2();
+            }); 
+        } else {
+            console.error("El botón no se encontró en el DOM.");
+            }               
+    }); 
