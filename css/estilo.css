@@ -1,12 +1,12 @@
 * { font-family: 'Cabin', sans-serif; }
 
-#envio, #personaTitular {
+#envio, #personaTitular, #verOtraPersona {
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
 }
 
-#envio { 
+#envio, #verOtraPersona { 
     color: white;
     background-color: mediumblue;
     font-weight: bold;
