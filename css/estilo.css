@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-#envio, #verOtraPersona { 
+#envio { 
     color: white;
     background-color: mediumblue;
     font-weight: bold;
@@ -33,4 +33,5 @@
     background-color: mediumblue;
     font-weight: bold;
     justify-content: center;
+    margin-left: 20px;
 }
